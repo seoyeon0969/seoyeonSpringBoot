@@ -1,6 +1,5 @@
 {{>layouts/header}}
 
-{{>layouts/footer}}
 <table class="table">
     <thead>
     <tr>
@@ -19,3 +18,8 @@
     {{/article}}
     </tbody>
 </table>
+
+<a href="/articles/{{ article.id }}/edit" class="btn btn-primary">Edit</a>
+<a href="/articles">Go to Article List</a>
+
+{{>layouts/footer}}
